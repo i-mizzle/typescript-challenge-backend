@@ -9,3 +9,5 @@ export async function connect() {
   const connection = await client.connect();
   return connection.db("sample_airbnb");
 }
+
+export default connect;
